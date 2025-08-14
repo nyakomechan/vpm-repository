@@ -3,12 +3,12 @@
     "id":"io.github.nyakomechan.vpm",
     "url":"https://nyakomechan.github.io/vpm-repository/index.json",
     "author":{
-        "name":"VRChat",
+        "name":"Nyakome",
         "url":"https://x.com/nyakome306"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"VRChat packages by Nyakome",
     "infoLink":{
-        "url":"https://github.com/nyakomechan/ModularArmAndLeg",
+        "url":"https://github.com/nyakomechan/vpm-repository",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",

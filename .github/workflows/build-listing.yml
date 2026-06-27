@@ -20,6 +20,7 @@ concurrency:
 env:
   listPublishDirectory: Website
   pathToCi: ci
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   
@@ -31,8 +32,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       
-      - uses: actions/checkout@v4 # check out this repo
-      - uses: actions/checkout@v4 # check out automation repo
+      - uses: actions/checkout@v6 # check out this repo
+      - uses: actions/checkout@v6 # check out automation repo
         with:
           repository: vrchat-community/package-list-action
           path: ${{env.pathToCi}}
